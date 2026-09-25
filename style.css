@@ -83,10 +83,13 @@ section.ex p.warn{color:var(--warn);}
 section.ex strong{color:var(--text);}
 section.ex .diagram{
   display:block;
-  width:110px;
-  height:110px;
+  width:150px;
+  height:150px;
   margin:0 0 .6rem;
-  color:var(--text-dim);
+  padding:8px;
+  border-radius:12px;
+  background:var(--bg);
+  color:var(--text);
 }
 section.ex .diagram svg{width:100%;height:100%;display:block;}
 
